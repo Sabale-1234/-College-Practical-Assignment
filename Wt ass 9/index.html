@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta chrset="UTF 8">
+    <title>Event Registration</title>
+</head>
+
+<body  ng-app="sampleApp">
+<script src="https://code.angularjs.org/1.6.9/angular-route.js"></script>
+<script src="https://code.angularjs.org/1.6.9/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+<script src="lib/bootstrap.js"></script>
+<script src="lib/bootstrap.css"></script>
+<link rel='stylesheet' href='style.css'>
+
+<h1>Event Registration</h1>
+<div ng-controller="AngularController">
+    <fieldset>
+        <legend>Personal Info</legend>
+    <form>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        Enter your user name:
+        <input type="text"  name="name" required><br><br>&nbsp;&nbsp;&nbsp;
+
+        Enter your password:&nbsp;&nbsp;&nbsp;
+        <input type="password"/><br><br>&nbsp;&nbsp;&nbsp;
+
+        Enter your email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email"/><br><br>&nbsp;&nbsp;&nbsp;
+
+        Enter your age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" /><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input type="submit" value="Submit"/>
+    </form>
+    </fieldset>
+</div>
+
+</body>
+</html>
