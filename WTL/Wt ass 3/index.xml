@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="style.css"?> 
+<!DOCTYPE Students SYSTEM "Student.dtd">
+<Students>
+  <heading>Student Data </heading>
+  <Student category="top">
+    <Name id="1">Name:Mansi Raut</Name>
+    <Department>Department:Computer</Department>
+    <Year>Year:Second</Year>
+    <Credit>Credit:8.12</Credit>
+  </Student>
+  <Student category="top">
+    <Name id="1">Name:Jay Jadhav</Name>
+    <Department>Department:Information Technology</Department>
+    <Year>Year:Second</Year>
+    <Credit>Credit:9.16</Credit>
+  </Student>
+  <Student category="top">
+    <Name id="1">Name:Pranoti Bartakke</Name>
+    <Department>Department:Mechanical</Department>
+    <Year>Year:Third</Year>
+    <Credit>Credit:8.6</Credit>
+  </Student>
+  <Student category="top">
+    <Name id="1">Name: Prajakta Surve </Name>
+    <Department>Department:Civil</Department>
+    <Year>Year:fourth</Year>
+    <Credit>Credit:8.88</Credit>
+    
+  </Student>
+</Students>

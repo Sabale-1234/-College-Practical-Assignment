@@ -1,0 +1,7 @@
+<!ELEMENT Students[
+<!ELEMENT Student> (Name,Department,Year,Credit)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Credit (#PCDATA)>
+]>
